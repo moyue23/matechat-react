@@ -8,7 +8,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // @ts-expect-error - Vitest types are not compatible with Rolldown Vite
   plugins: [react()],
   test: {
     environment: "happy-dom",
